@@ -20,6 +20,7 @@ addItemBtn.addEventListener('click', function(){
         itemList.appendChild(li);
        
         itemInput.value = '';
+         itemInput.focus();    
     }
     else
     {
